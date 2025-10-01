@@ -4,7 +4,6 @@ body {
   font-family: "Open Sans", arial, sans-serif;
   font-size: 1em;
   color:#444;
-  font weight: 400;
 }
 
 /* banner name at top */
@@ -36,7 +35,7 @@ h2 {
 
 h3 {
   font-size: 1.5em;
-  font-weight:600;
+  font-weight:bold;
 }
 
 /* job organizations */
@@ -51,4 +50,8 @@ h4 {
 h5{
   font-size: 1em;
   font-weight:400;
+}
+
+li{
+  font-size: 1em;
 }
