@@ -1,9 +1,48 @@
 .row {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .special-elite-regular {
   font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bi {
+    font-size:3em;
+}
+
+.btn-padding {
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+   font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal; 
+}
+
+h3 {
+    font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn{
+    font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-brand {
+    font-family: "Special Elite", system-ui;
   font-weight: 400;
   font-style: normal;
 }
