@@ -23,6 +23,12 @@ h1 {
     font-family:Helvetica, sans-serif;
 }
 
+h2 {
+    font-size:20px;
+    font-style:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 p {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:13px;
@@ -42,6 +48,37 @@ hr { width:100%; height:1px; background: #000000 }
 #content {
     margin: 0 auto;
     width: 900px;
+}
+
+#captions {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    font-size:0.75em; 
+}
+
+.image7 {
+    margin-top:20px;
+    width: 900px;
+    height: 600px;
+}
+
+.image2 {
+    margin-top:20px;
+    width: 900px;
+    height: 500px;
+}
+
+.image5 {
+    margin-top:20px;
+    width: 900px;
+    height: 500px;
+}
+
+.pullquote {
+    font-size:2em !important;
+    font-family:"DM Serif Display", serif;
+    color:darkred;
+    font-style:italic;
 }
 
 .dm-serif-display-regular {
