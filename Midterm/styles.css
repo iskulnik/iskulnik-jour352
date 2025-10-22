@@ -1,0 +1,113 @@
+#content {
+    margin:0 auto;
+    width:900px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:15px;
+}
+
+#masthead {
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+    font-size:3em;
+    text-align:center; 
+    font-family:"Caprasimo", serif;
+    color:darkgreen;
+}
+
+#smalltext {
+    font-size:1.25em;
+    font-family:"PT Sans", sans-serif;
+    text-align:center;
+    margin-top:-12px;
+    margin-bottom:20px;
+}
+
+#pubdetails {
+    margin:0 auto; 
+    width:900px;
+    font-style:italic; 
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:1.2em;
+    color:darkgreen;
+    padding-bottom:15px;
+    text-align:center;
+}
+
+h1 {
+  margin:0 auto;
+  width:900px; 
+  padding-bottom:10px; 
+  font-family:"Instrument Serif", serif;
+  text-align:center;
+  font-size:4.5em;
+}
+
+h2 {
+    font-family:"Instrument Serif", serif;
+    color:darkgreen;
+    font-size:35px;
+}
+
+hr {
+    border:none;
+    height:4px;
+    color:darkgreen;
+    background-color:darkgreen;
+    margin-bottom:20px;
+}
+
+.image1 {
+    width:900px;
+    height:700px;
+}
+
+.image9 {
+    display: block;
+    margin:0 auto;
+    padding-top:20px;
+    padding-bottom:5px;
+    width: 1200px;
+    height: 800px;
+}
+
+.image8 {
+    display: block;
+    margin:0 auto;
+    width:900px;
+    height:600px;
+}
+
+.image4 {
+    display: block;
+    margin:0 auto;
+    width:400px;
+    height:550px;
+}
+
+.captions {
+    margin:0 auto; 
+    width:1200px;
+    font-style:italic; 
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:0.9em;
+    padding-bottom:15px;
+}
+
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
