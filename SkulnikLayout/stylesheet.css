@@ -74,8 +74,8 @@ hr { width:100%; height:1px; background: #000000 }
     height: 500px;
 }
 
-.pullquote {
-    font-size:2em !important;
+blockquote p {
+    font-size: 25px;
     font-family:"DM Serif Display", serif;
     color:darkred;
     font-style:italic;
