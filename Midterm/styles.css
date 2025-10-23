@@ -57,6 +57,19 @@ hr {
     margin-bottom:20px;
 }
 
+blockquote {
+    font-size:25px;
+    font-family:"PT Sans", sans-serif;
+    color:#CF9102;
+}
+
+#relateditems {
+    font-family:"PT Sans", sans-serif;
+    font-size:20px;
+}
+
+/* image styles below */
+
 .image1 {
     width:900px;
     height:700px;
@@ -93,6 +106,8 @@ hr {
     font-size:0.9em;
     padding-bottom:15px;
 }
+
+/* google fonts below */
 
 .caprasimo-regular {
   font-family: "Caprasimo", serif;
