@@ -1,0 +1,126 @@
+.navbar, .navbar-brand, .nav-link {
+  font-family: "DM Serif Display", serif !important;
+  color: #000000 !important; 
+}
+
+
+#pagetopper {
+    font-size:4.5em;
+    font-family:"DM Serif Display", serif;
+    color:#018f91;
+    text-align:center;
+}
+
+hr {
+    border:none;
+    height:4px;
+    color: #018f91;
+    background-color:#018f91;
+    margin-bottom:20px;
+}
+
+.intro {
+    width: 1050px;
+    height:600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    margin-left:117px;
+}
+
+.sections {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    color:#EA9455;
+    font-size:2.75em;
+    padding-top:20px;
+}
+
+.content {
+    font-family:'Times New Roman', Times, serif;
+    font-size:1.5em;
+    padding-bottom:20px;
+}
+
+.jobtitle {
+    font-family:"DM Serif Display", serif;
+    font-size:1.6em;
+}
+
+.organization {
+    font-family:"PT Sans", sans-serif;
+    font-size:1.3em;
+}
+
+.date {
+    font-family:"PT Sans", sans-serif;
+    font-size:1.3em;
+    font-style:italic;
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1.2em;
+}
+
+.images {
+    width: 1000px;
+    height:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socials2 {
+    width:auto;
+    height:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color:#018f91;
+    color:white;
+    padding-left:10px;
+}
+
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
