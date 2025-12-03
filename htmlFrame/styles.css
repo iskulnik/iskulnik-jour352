@@ -1,11 +1,13 @@
-h1 {
-    text-align:center;
-    padding-top:30px;
-}
+
 
 #byline {
     text-align:center;
     font-size:1.25em;
+    padding-top:30px;
+    color: #D21404;
+    font-size:1.25em;
+    font-family: "Fira Sans", sans-serif;
+    padding-bottom:20px;
 }
 
 h2 {
@@ -22,11 +24,12 @@ h2 {
 }
 
 .image {
-    width: 600px;
+    width: 650px;
     height:800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom:2%;
 }
 
 .captions {
@@ -38,7 +41,78 @@ h2 {
 }
 
 footer {
-    background-color:black;
+    background-color:#D21404;
     padding-left:10px;
     color:white;
+}
+
+/* Topper */
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero-container {
+    position:relative;
+    text-align:center;
+    color:white;
+}
+
+.hero-image {
+    width:100%
+}
+
+.overlay {
+    position: absolute;
+    width:100%;
+    top:20%;
+    left:6%;
+    text-align: left;
+    font-size:2.5em;
+    font-family:"Young Serif", serif;
+}
+
+.subtext {
+  position: absolute;
+  top: 28%;      
+  left:6%;
+  color: #D21404;
+  font-size:1.35em;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.drop-cap::first-letter {
+  float: left;            /* allows text to wrap around the letter */
+  font-size: 3rem;        /* size of the drop cap */
+  line-height: 1;          /* ensures it fits nicely with text */
+  margin-right: 0.1em;    /* space between letter and text */
+  font-weight: bold;       /* optional */
+  font-family: "Young Serif", serif;
+  color: #D21404;
+}
+
+/* Pull Quotes */
+
+.quote {
+    font-size:1.8em;
+    font-family: "Fira Sans", sans-serif;
+    color: #D21404;
+    padding-bottom:2%;
+}
+
+.map{
+    padding-bottom:2%;
+}
+
+.big-image{
+    width:100%;
+    padding-bottom:2%;
 }
