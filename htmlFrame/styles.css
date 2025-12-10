@@ -5,39 +5,39 @@
     font-size:1.25em;
     padding-top:30px;
     color: #D21404;
-    font-size:1.25em;
     font-family: "Fira Sans", sans-serif;
-    padding-bottom:20px;
-}
-
-h2 {
-    margin:0 auto;
-    width:880px;
-    padding-top:40px;
     padding-bottom:20px;
 }
 
 .container {
     margin:0 auto;
-    width:900px;
+    max-width: 900px;
+    width: 100%;
     font-family:'Times New Roman', Times, serif;
 }
 
 .image {
     width: 650px;
-    height:800px;
+    height:auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom:2%;
 }
 
-.captions {
-    display: block;
-    width:600px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom:50px;
+.cap1 {
+    margin:0 auto;
+    width:650px;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom:1%;
+    font-style:italic;
+}
+
+.cap2 {
+    margin:0 auto;
+    width:875px;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom:1%;
+    font-style:italic;
 }
 
 footer {
@@ -62,8 +62,8 @@ footer {
 
 .hero-container {
     position:relative;
-    text-align:center;
     color:white;
+    width:100%;
 }
 
 .hero-image {
@@ -80,6 +80,12 @@ footer {
     font-family:"Young Serif", serif;
 }
 
+.headtext {
+    text-align: left;
+    font-size:1em;
+    font-family:"Young Serif", serif;
+}
+
 .subtext {
   position: absolute;
   top: 28%;      
@@ -90,11 +96,11 @@ footer {
 }
 
 .drop-cap::first-letter {
-  float: left;            /* allows text to wrap around the letter */
-  font-size: 3rem;        /* size of the drop cap */
-  line-height: 1;          /* ensures it fits nicely with text */
-  margin-right: 0.1em;    /* space between letter and text */
-  font-weight: bold;       /* optional */
+  float: left;            
+  font-size: 3rem;      
+  line-height: 1;         
+  margin-right: 0.1em;    
+  font-weight: bold;       
   font-family: "Young Serif", serif;
   color: #D21404;
 }
@@ -108,11 +114,68 @@ footer {
     padding-bottom:2%;
 }
 
-.map{
-    padding-bottom:2%;
-}
-
 .big-image{
     width:100%;
-    padding-bottom:2%;
 }
+
+.bottom-image {
+    width:475px;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .image {
+        width:100%;
+        height: auto;
+    }
+
+     .bottom-image {
+        width: 100%;
+        height: auto;
+    }
+    
+    .cap1 {
+        width: 90%;
+        max-width: 100%;
+    }
+    .cap2 {
+        width: 90%;
+        max-width: 100%;
+    }
+
+      .overlay {
+        top: 15%;
+        left: 5%;
+        font-size: 1.8em; 
+    }
+    
+    .subtext {
+        top: 25%;
+        left: 5%;
+        font-size: 1.1em; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .overlay {
+        top: 10%;
+        left: 5%;
+        font-size: 1.3em; 
+    }
+
+    .headtext {
+        font-size: 1em; 
+    }
+
+    .subtext {
+        top: 20%;
+        left: 5%;
+        font-size: 0.9em; 
+    }
+}
+
+
+
